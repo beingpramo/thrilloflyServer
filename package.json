@@ -1,0 +1,21 @@
+{
+  "name": "amadeus-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "node src/server.js"
+  },
+  "author": "Amadeus for Developers",
+  "license": "MIT",
+  "dependencies": {
+    "amadeus": "^4.0.0",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.6.0",
+    "ejs": "^3.1.8",
+    "express": "^4.17.1",
+    "nodemon": "^2.0.20",
+    "socket.io": "^2.4.0"
+  }
+}
